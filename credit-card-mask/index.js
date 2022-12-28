@@ -5,5 +5,5 @@ function maskify(cc) {
   return str
 }
 
-document.write('Skippy >>> ##ippy: ', '##ippy' === maskify('Skippy'))
+document.write('Skippy >>> ##ippy: ', '##ippy' === maskify('Skippy'), '<br>')
 document.write('Nananananananananananananananana Batman! >>> ####################################man!: ', '####################################man!' === maskify('Nananananananananananananananana Batman!'))

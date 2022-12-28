@@ -20,12 +20,9 @@ Your task is to write a function maskify, which changes all but the last four ch
 ```
 
 ## 思路
-1. 使用 .split() 進行字串轉換為陣列
-2. 使用 .map() 將每個元素透過 .toUpperCase() 轉為大寫
-3. 使用 .charCodeAt() 取得每個元素的 ASCII 值，字母值範圍為 65-90
-4. 由題意可知 a 輸出為 1，因此統一將取得的 ASCII 值減去 64
-5. 使用 .filter() 過濾 ASCII 值的陣列結果，留下數值範圍介於 [1~26] 的值
-6. 使用 .join(' ') 將陣列元素用空白格串成字串
+1. 使用 .split() 將字串切割為陣列
+2. 使用 .substring() 自倒數第4個元素開始取至最後1元素
+3. 使用 .padStart() 自字串左側補足 # 符號數量至原有字串長度
 
 ## Link
 [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)
