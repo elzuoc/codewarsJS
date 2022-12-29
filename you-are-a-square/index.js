@@ -1,25 +1,29 @@
 let msg = '';
 var isSquare = function(n){
+  const sqrtInt = Math.sqrt(n);
+
+  if ( isNaN( sqrtInt ) ) {
+    msg = `${n}: String cannot be square numbers`;
+    return false;
+ } else {
+
   if (n<0) {
     msg = `${n}: Negative numbers cannot be square numbers`;
     return false;
   } else {
-    const sqrtInt = Math.sqrt(n);
     
-    if ( isNaN( sqrtInt ) ) {
-       msg = `${n}: String cannot be square numbers`;
-       return false;
+    if (Number.isInteger( sqrtInt )) {
+      msg = `${n} is a square number (${sqrtInt} * ${sqrtInt})`;
+      return true;
     } else {
-      if (Number.isInteger( sqrtInt )) {
-        msg = `${n} is a square number (${sqrtInt} * ${sqrtInt})`;
-        return true;
-      } else {
-        msg = `${n} is not a square number`;
-        return false;
-      }
+      msg = `${n} is not a square number`;
+      return false;
     }
     
   }
+
+ }
+  
 }
 
 document.write('Input: -1', '<br>')

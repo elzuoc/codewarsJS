@@ -21,19 +21,18 @@ The tests will always use some integral number, so don't worry about that in dyn
 ```
 ```javascript
 isSquare (-1) // => false
-isSquare   3  // => false
-isSquare   4  // => true
-isSquare  25  // => true
-isSquare  26  // => false
+isSquare ( 3) // => false
+isSquare ( 4) // => true
+isSquare (25) // => true
+isSquare (26) // => false
 ```
 
 ## 思路
-1. 使用 .split() 進行字串轉換為陣列
-2. 使用 .map() 將每個元素透過 .toUpperCase() 轉為大寫
-3. 使用 .charCodeAt() 取得每個元素的 ASCII 值，字母值範圍為 65-90
-4. 由題意可知 a 輸出為 1，因此統一將取得的 ASCII 值減去 64
-5. 使用 .filter() 過濾 ASCII 值的陣列結果，留下數值範圍介於 [1~26] 的值
-6. 使用 .join(' ') 將陣列元素用空白格串成字串
+1. 以輸入來看會有 4 種邏輯：
+  - 字串  ： false → String cannot be square numbers
+  - 小於 0： false → Negative numbers cannot be square numbers
+  - 大於 0 不可開平方根： false → {number} is not a square number
+  - 大於 0 可開平方根  ： true  → {number} is a square number
 
 ## Link
 [You're a square!](https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript)
