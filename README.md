@@ -11,3 +11,4 @@ codewars challenge - javascript
 - [Replace With Alphabet Position](https://elzuoc.github.io/codewarsJS/replace-with-alphabet-position)
 - [Detect Pangram](https://elzuoc.github.io/codewarsJS/detect-pangram)
 - [Your order, please](https://elzuoc.github.io/codewarsJS/your-order-please)
+- [The Hashtag Generator](https://elzuoc.github.io/codewarsJS/the-hashtag-generator)
