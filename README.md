@@ -12,6 +12,7 @@ codewars challenge - javascript
 - [Detect Pangram](https://elzuoc.github.io/codewarsJS/detect-pangram)
 - [Your order, please](https://elzuoc.github.io/codewarsJS/your-order-please)
 - [The Hashtag Generator](https://elzuoc.github.io/codewarsJS/the-hashtag-generator)
+- [Create Phone Number](https://elzuoc.github.io/codewarsJS/create-phone-number)
 
 ### novice programming level (5 kyu)
 - [Moving Zeros To The End](https://elzuoc.github.io/codewarsJS/moving-zeros-to-the-end)
