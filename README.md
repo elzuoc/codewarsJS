@@ -13,6 +13,7 @@ codewars challenge - javascript
 - [Your order, please](https://elzuoc.github.io/codewarsJS/your-order-please)
 - [The Hashtag Generator](https://elzuoc.github.io/codewarsJS/the-hashtag-generator)
 - [Create Phone Number](https://elzuoc.github.io/codewarsJS/create-phone-number)
+- [Is a number prime?](https://elzuoc.github.io/codewarsJS/is-a-number-prime) ★
 
 ### novice programming level (5 kyu)
 - [Moving Zeros To The End](https://elzuoc.github.io/codewarsJS/moving-zeros-to-the-end)
