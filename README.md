@@ -17,3 +17,4 @@ codewars challenge - javascript
 
 ### novice programming level (5 kyu)
 - [Moving Zeros To The End](https://elzuoc.github.io/codewarsJS/moving-zeros-to-the-end)
+- [Extract the domain name from a URL](https://elzuoc.github.io/codewarsJS/extract-the-domain-name-from-a-url)
